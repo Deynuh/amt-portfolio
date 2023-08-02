@@ -1,3 +1,4 @@
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -14,123 +15,171 @@
   -webkit-text-size-adjust: 100%;
 }
 
+.speedDial {
+  padding-left: 113%;
+  padding-top: 2%;
+  height: 0px;
+}
+
+
 .signature {
-  position: absolute;
-  height: 60%;
-  width: 40%;
-  left: 47%;
-  top: 10%;
+  position: relative;
+  width: 80%;
+  left: 25%;
 }
-
-.photo {
-  position: absolute;
-  height: 70%;
-  width: 40%;
-  left: 5%;
-  top: 10%;
-}
-
-
 
 .label {
+  position: relative;
+  top: -200px;
+  left: 32%;
+  height: 10px;
   color: #3d3c3c;
-  position: absolute;
-  left: 52%;
-  top: 27%;
-  font-size: 560%;
+  font-size: 230%;
   font-family: 'Times New Roman', Times, serif;
 }
 
-
-.containers {
-  display: grid;
-  margin-right: auto;
-  margin-left: auto;
+.photo {
+  position: relative;
+  height: 70%;
+  width: 90%;
+  left: 17%;
+  top: -170px;
+  padding-bottom: 0px;
 }
 
-.cloud {
-	width: 99%; height: 520px;
-	
-	background: #f2f9fe;
-	border-radius: 100px;
-	
-	position: absolute;
-  top: 100%;
-	margin: 120px auto 20px;
-
-  
-}
-
-.cloud:after, .cloud:before {
-	content: '';
-	position: absolute;
-	background: #f2f9fe;
-	z-index: -1
-}
-
-.cloud:after {
-	width: 20%; height: 400px;
-	top: -100px; left: 0px;
-	
-	border-radius: 100%;
-}
-
-.cloud:before {
-	width: 20%; height: 400px;
-	top: -100px; right: 0px;
-	border-radius: 100%;
-}
-
-.cloudTitle {
-  font-size: 200%;
-  color: #3d3c3c;
-  position: absolute;
-  left: 3%;
-  top: 10%;
-  font-family: 'Preahvihear', sans-serif;
-  font-weight: bolder;
-}
-
-.cloudText {
-  font-size: 150%;
-  color: #3d3c3c;
-  position: absolute;
-  left: 3%;
-  top: 25%;
-  font-family: 'Preahvihear', sans-serif;
-
-}
 
 .scrollDown {
   color: #3d3c3c;
   font-family: 'Cute', sans-serif;
-  position: absolute;
-  top: 87%;
-  left: 43%;
+  position: relative;
+  padding-left: 32%;
+  top: -50px;
 }
 
 .scroll {
-  position: absolute;
-  top: 96%;
-  left: 50%;
+  position: relative;
+  padding-left: 58%;
+  height: 70px;
+  top: -75px;
 }
-
 
 .flowers {
-  position: absolute;
-  top: 30%;
-  left: 74%;
-  rotate: 90deg;
-  height: 400px;
-  width: 350px;
+  display: none;
 }
 
-.projects {
-  position: absolute;
-  top: 200%;
-  left: 40%;
-  
-  font-family: 'Cute', sans-serif;
-  color: #3d3c3c;
-  font-size: 150%;
+@media only screen and (min-width: 768px) {
+
 }
+
+@media only screen and (min-width: 1543px) {
+
+  .speedDial  {
+    display: block;
+    padding-left: 95%;
+    padding-top: 1%;
+  }
+
+  .signature {
+    position: relative;
+    height: 60%;
+    width: 40%;
+    padding-left: 25%;
+    padding-top: 5%;
+  }
+
+  .photo {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    top: -130%;
+    left: 10px;
+  }
+
+
+  .label {
+    color: #3d3c3c;
+    position: relative;
+    font-size: 600%;
+    padding-left: 430px;
+    top: -44%;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  
+  .scrollDown {
+    color: #3d3c3c;
+    font-family: 'Cute', sans-serif;
+    position: relative;
+    top: -1050%;
+    padding-left: 45%;
+  }
+
+  .scroll {
+    position: relative;
+    top: -1400%;
+    padding-left: 50%;
+  }
+
+
+  .containers {
+    display: grid;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+  .projects {
+    position: relative;
+    font-family: 'Cute', sans-serif;
+    color: #3d3c3c;
+    font-size: 150%;
+    padding-top: 10px;
+    display: grid;
+    margin: 20px;
+    top: -60%;
+  }
+
+  .blueVideo, .litCalcImg, .whatsCookin {
+    height: 300px;
+    width: 500px;
+  }
+
+
+  .cloud {
+    width: 99%; height: 520px;
+    
+    background: #f2f9fe;
+    
+    position: relative;
+    top: -90%;
+  }
+  
+  .cloudTitle {
+    font-size: 200%;
+    color: #3d3c3c;
+    position: relative;
+    left: 1%;
+    top: 10%;
+    font-family: 'Preahvihear', sans-serif;
+    font-weight: bolder;
+  }
+
+  .cloudText {
+    font-size: 150%;
+    color: #3d3c3c;
+    position: relative;
+    left: 1%;
+    top: 10%;
+    font-family: 'Preahvihear', sans-serif;
+
+  }
+
+  .bye {
+    font-family: 'Cute', sans-serif;
+    position: relative;
+    left: 45%;
+    color: rgb(39, 39, 39);
+  }
+}
+
+

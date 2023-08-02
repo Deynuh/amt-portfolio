@@ -22,7 +22,7 @@ export default function BasicSpeedDial() {
       <SpeedDial
         ariaLabel="SpeedDial"
         direction='down'
-        sx={{ position: 'absolute', bottom: '0%', right: '1%'}}
+        sx={{ position: 'relative'}}
         icon={<DensityMediumOutlinedIcon />}
         FabProps={{
             sx: {
