@@ -1,0 +1,136 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #e8cac7;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.signature {
+  position: absolute;
+  height: 60%;
+  width: 40%;
+  left: 47%;
+  top: 10%;
+}
+
+.photo {
+  position: absolute;
+  height: 70%;
+  width: 40%;
+  left: 5%;
+  top: 10%;
+}
+
+
+
+.label {
+  color: #3d3c3c;
+  position: absolute;
+  left: 52%;
+  top: 27%;
+  font-size: 560%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.containers {
+  display: grid;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.cloud {
+	width: 99%; height: 520px;
+	
+	background: #f2f9fe;
+	border-radius: 100px;
+	
+	position: absolute;
+  top: 100%;
+	margin: 120px auto 20px;
+
+  
+}
+
+.cloud:after, .cloud:before {
+	content: '';
+	position: absolute;
+	background: #f2f9fe;
+	z-index: -1
+}
+
+.cloud:after {
+	width: 20%; height: 400px;
+	top: -100px; left: 0px;
+	
+	border-radius: 100%;
+}
+
+.cloud:before {
+	width: 20%; height: 400px;
+	top: -100px; right: 0px;
+	border-radius: 100%;
+}
+
+.cloudTitle {
+  font-size: 200%;
+  color: #3d3c3c;
+  position: absolute;
+  left: 3%;
+  top: 10%;
+  font-family: 'Preahvihear', sans-serif;
+  font-weight: bolder;
+}
+
+.cloudText {
+  font-size: 150%;
+  color: #3d3c3c;
+  position: absolute;
+  left: 3%;
+  top: 25%;
+  font-family: 'Preahvihear', sans-serif;
+
+}
+
+.scrollDown {
+  color: #3d3c3c;
+  font-family: 'Cute', sans-serif;
+  position: absolute;
+  top: 87%;
+  left: 43%;
+}
+
+.scroll {
+  position: absolute;
+  top: 96%;
+  left: 50%;
+}
+
+
+.flowers {
+  position: absolute;
+  top: 30%;
+  left: 74%;
+  rotate: 90deg;
+  height: 400px;
+  width: 350px;
+}
+
+.projects {
+  position: absolute;
+  top: 200%;
+  left: 40%;
+  
+  font-family: 'Cute', sans-serif;
+  color: #3d3c3c;
+  font-size: 150%;
+}
