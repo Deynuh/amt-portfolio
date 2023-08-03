@@ -16,7 +16,7 @@
 }
 
 .speedDial {
-  padding-left: 113%;
+  padding-left: 80%;
   padding-top: 2%;
   height: 0px;
 }
@@ -25,13 +25,14 @@
 .signature {
   position: relative;
   width: 80%;
-  left: 25%;
+  top: 20px;
+  left: 15%;
 }
 
 .label {
   position: relative;
-  top: -200px;
-  left: 32%;
+  top: -190px;
+  left: 22%;
   height: 10px;
   color: #3d3c3c;
   font-size: 230%;
@@ -42,8 +43,8 @@
   position: relative;
   height: 70%;
   width: 90%;
-  left: 17%;
-  top: -170px;
+  left: 7%;
+  top: -130px;
   padding-bottom: 0px;
 }
 
@@ -51,16 +52,17 @@
 .scrollDown {
   color: #3d3c3c;
   font-family: 'Cute', sans-serif;
+  font-size: 150%;
   position: relative;
-  padding-left: 32%;
+  padding-left: 28%;
   top: -50px;
 }
 
 .scroll {
   position: relative;
-  padding-left: 58%;
-  height: 70px;
-  top: -75px;
+  padding-left: 45%;
+  height: 90px;
+  top: -70px;
 }
 
 .flowers {

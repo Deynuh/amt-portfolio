@@ -3,7 +3,6 @@ import './App.css'
 import SpeedDial from './components/SpeedDial'
 import Signature from './media/signature.png'
 import Photo from './media/ovalPhotoEdited.png'
-import Flowers from './media/flowers.png'
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 
 import BlueDemo from './media/blueDemo.mp4'
