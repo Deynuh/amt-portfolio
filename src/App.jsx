@@ -44,25 +44,28 @@ function App() {
 
           <div className="projects">
             <div className="blue">
-              <h1>Blue</h1>
+              <h1>"Blue"</h1>
+              <p class="projDesc">An audio-reactive mesh created using MaxMSP. The culmination of hours of research and learning in MUSC320!</p>
               <video className="blueVideo" src={BlueDemo} playsinline muted loop autoplay controls></video>
               <a href="./files/Blue.zip" className="downloadBlue"><b>Download Blue</b></a>
             </div>
             
             <div className="song">
-              <h1>I Kinda Wrote a Song About You</h1>
+              <h1>"I Kinda Wrote a Song About You"</h1>
+              <p class="projDesc">A song I wrote for my boyfriend in the Summer of 2022! I have been writing songs on and off for years, and this was the second one I decided to share with the public.</p>
               <audio className="firstSong" src={Song} controls></audio>
             </div>
             
             <div className="litCalc">
-              <h1>Litigation Checklist Calculator</h1>
+              <h1>"Litigation Checklist Calculator"</h1>
+              <p class="projDesc">A website application project I completed for my mom to use in her work as a law clerk and paralegal for Harris & Company LLP. </p>
               <img className="litCalcImg" src={LitCalcImg} alt="litCalcImg"></img>
               <a href="https://deynuh.github.io/Litigation-Checklist-Calculator/"><b>Link to Website</b></a>
             </div>
 
             <div className="javaApp">
-              <h1>What's Cookin?</h1>
-              
+              <h1>"What's Cookin?"</h1>
+              <p class="projDesc">A Java application that helps indecisive users decide what to eat! Created in CPSC 210</p>
               <img className="whatsCookin" src={WhatsCookin} alt="whatsCookin"></img>
               <a href="https://github.com/Deynuh/WhatsCookin"><b>Github Link</b></a>
             </div>
@@ -74,9 +77,7 @@ function App() {
             <p className="cloudText">
               I was born in Toronto and grew up in the Philippines.
               I'm an incoming third-year student at the University of British Columbia and I'm pursuing a Bachelor of Arts with a Cognitive Systems: Cognition and Brain major.
-              I am eager to continue working with the Applied Music Technology instructors 
-              <br></br>
-              to hone my skills in programming and composition in the AMT minor.
+              I am eager to continue working with the Applied Music Technology instructors to hone my skills in programming and composition in the AMT minor.
               <br></br>
               <br></br>
               Thank you for taking the time to look at my portfolio!

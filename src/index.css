@@ -69,6 +69,65 @@
   display: none;
 }
 
+.projects {
+  position: relative;
+  font-family: 'Cute', sans-serif;
+  color: #3d3c3c;
+  font-size: 150%;
+  padding-top: 10px;
+  display: grid;
+  margin: 20px;
+  top: -60%;
+}
+
+.blueVideo, .litCalcImg, .whatsCookin {
+  height: 250px;
+  width: 330px;
+  margin: 1px;
+}
+
+.projDesc {
+  font-family: 'Century Gothic';
+  font-size: 80%;
+}
+
+.cloud {
+  width: 99%; height: 520px;
+  
+  background: #aac2eb;
+  
+  position: relative;
+  top: -90%;
+}
+
+.cloudTitle {
+  font-size: 100%;
+  color: #3d3c3c;
+  position: relative;
+  margin: 10px;
+  left: 1%;
+  top: 10%;
+  font-family: 'Century Gothic';
+  font-weight: bolder;
+}
+
+.cloudText {
+  font-size: 90%;
+  color: #3d3c3c;
+  position: relative;
+  margin: 10px;
+  left: 1%;
+  top: 10%;
+  font-family: 'Century Gothic';
+
+}
+
+.bye {
+  display: none;
+}
+
+
+
 @media only screen and (min-width: 768px) {
 
 }
