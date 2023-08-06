@@ -47,7 +47,7 @@ function App() {
               <h1>"Blue"</h1>
               <p class="projDesc">An audio-reactive mesh created using MaxMSP. The culmination of hours of research and learning in MUSC320!</p>
               <video className="blueVideo" src={BlueDemo} playsinline muted loop autoplay controls></video>
-              <a href="./files/Blue.zip" className="downloadBlue"><b>Download Blue</b></a>
+              <a href="./media/Blue.zip" className="downloadBlue"><b>Download Blue</b></a>
             </div>
             
             <div className="song">

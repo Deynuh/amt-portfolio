@@ -226,12 +226,12 @@
     padding-top: 10px;
     display: grid;
     margin: 20px;
-    top: -60%;
+    top: -40%;
   }
 
   .blueVideo, .litCalcImg, .whatsCookin {
-    height: 300px;
-    width: 500px;
+    height: 450px;
+    width: 650px;
   }
 
   .cloud {
