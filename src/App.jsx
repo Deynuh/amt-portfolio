@@ -77,9 +77,6 @@ function App() {
               <br></br>
               <br></br>
               Thank you for taking the time to look at my portfolio!
-              <br></br>
-              <br></br>
-              Hope you liked it!
             </p>
           </div>
         </div>
