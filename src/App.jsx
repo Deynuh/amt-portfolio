@@ -23,7 +23,6 @@ function App() {
                 
       <div className="containers">
         
-          <div className="speedDial"><SpeedDial></SpeedDial></div>
 
           <div className="title">
             <img className="signature" src={Signature} alt="signature"></img>
@@ -38,9 +37,6 @@ function App() {
             <KeyboardDoubleArrowDownIcon style={{ fill: '#3d3c3c'}}></KeyboardDoubleArrowDownIcon>
           </div>
 
-         
-          
-
 
           <div className="projects">
             <div className="blue">
@@ -52,7 +48,7 @@ function App() {
             
             <div className="song">
               <h1>"I Kinda Wrote a Song About You"</h1>
-              <p class="projDesc">A song I wrote for my boyfriend in the Summer of 2022! I have been writing songs on and off for years, and this was the second one I decided to share with the public.</p>
+              <p class="projDesc">A song I wrote in the Summer of 2022! I have been writing songs on and off for years, and this was the second one I decided to share with people.</p>
               <audio className="firstSong" src={Song} controls></audio>
             </div>
             
@@ -72,7 +68,7 @@ function App() {
           </div>
 
 
-          <div className="cloud">
+          <div id="about" className="cloud">
             <h1 className="cloudTitle">Hi! I'm Dana :)</h1>
             <p className="cloudText">
               I was born in Toronto and grew up in the Philippines.
@@ -86,8 +82,6 @@ function App() {
               Hope you liked it!
             </p>
           </div>
-
-          <h1 className="bye">Have a great day :)</h1>
         </div>
 
     </div>

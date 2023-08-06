@@ -1,3 +1,11 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -14,13 +22,6 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
-.speedDial {
-  padding-left: 80%;
-  padding-top: 2%;
-  height: 0px;
-}
-
 
 .signature {
   position: relative;
@@ -126,11 +127,6 @@
 }
 
 @media only screen and (min-width: 750px) {
-  .speedDial {
-    position: relative;
-    right: -30px;
-  }
-
   .signature {
     left: 13%;
   }
@@ -166,12 +162,6 @@
 }
 
 @media only screen and (min-width: 1543px) {
-
-  .speedDial  {
-    display: block;
-    padding-left: 93%;
-    padding-top: 1%;
-  }
 
   .signature {
     position: relative;
@@ -258,12 +248,5 @@
     position: relative;
     left: 1%;
     top: 10%;
-  }
-
-  .bye {
-    font-family: 'Cute', sans-serif;
-    position: relative;
-    left: 45%;
-    color: rgb(39, 39, 39);
   }
 }

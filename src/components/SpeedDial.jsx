@@ -10,9 +10,9 @@ import ArticleOutlinedIcon from '@mui/icons-material/ArticleOutlined';
 import Face3OutlinedIcon from '@mui/icons-material/Face3Outlined';
 
 const actions = [
-  { icon: <HomeOutlinedIcon />, name: 'Home' },
-  { icon: <Face3OutlinedIcon />, name: 'About' },
-  { icon: <ArticleOutlinedIcon />, name: 'Projects' },
+  { icon: <HomeOutlinedIcon />, name: 'Home', action: handleClick, operation: 'home'},
+  { icon: <Face3OutlinedIcon />, name: 'About', action: handleClick , operation: 'about' },
+  { icon: <ArticleOutlinedIcon />, name: 'Projects', action: handleClick , operation: 'projects'},
 ];
 
 
@@ -22,6 +22,7 @@ export default function BasicSpeedDial() {
       <SpeedDial
         ariaLabel="SpeedDial"
         direction='down'
+        onClick={handleClick}
         sx={{ position: 'relative'}}
         icon={<DensityMediumOutlinedIcon />}
         FabProps={{
@@ -38,9 +39,31 @@ export default function BasicSpeedDial() {
             key={action.name}
             icon={action.icon}
             tooltipTitle={action.name}
+            onClick={(e) => {
+                    handleClick(e.action.operation)
+               }}
           />
         ))}
       </SpeedDial>
     </Box>
   );
+
+  
 }
+
+
+//handler function
+function handleClick (e,operation){
+  e.preventDefault();
+  const ref = useRef(null);
+  const about = document.getElementById('about');
+
+  if (operation=="home"){
+    ref.current.scrollIntoView({behavior: 'smooth'});    
+  } else if (operation=="about") {
+    about.current.scrollIntoView({behavior: 'smooth'});    
+  } else if (operation=="projects") {
+    
+  }
+  setOpen(!open);// to close the speed dial, remove this line if not needed.
+};
